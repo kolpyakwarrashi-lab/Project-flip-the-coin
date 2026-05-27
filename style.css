@@ -1,18 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html, body{
-     overflow-x: hidden;
+
+html,
+body {
+    overflow-x: hidden;
     width: 100%;
 }
+
 body {
     text-align: center;
     color: aliceblue;
     background: linear-gradient(135deg, #1e3c72, #2a5298);
     margin: 0px;
     padding: 0px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Poppins', sans-serif;
 
 }
@@ -27,7 +34,7 @@ h3 {
     font-size: x-large
 }
 
-#shadow{
+#shadow {
     width: 50%;
     max-width: 180px;
 }
@@ -56,7 +63,7 @@ button:hover {
 
 #coin {
     cursor: pointer;
-     width: 200px;
+    width: 200px;
     max-width: 80%;
 
 }
